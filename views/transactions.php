@@ -3,6 +3,7 @@
     <head>
         <title>Transactions</title>
         <style>
+           
             table {
                 width: 100%;
                 border-collapse: collapse;
@@ -60,15 +61,15 @@
             <tfoot>
                 <tr>
                     <th colspan="3">Total Income:</th>
-                    <td><?= formatDollarAmount($totals['totalIncome'] ?? 0) ?></td>
+                    <td style="color:darkgreen;"><?= formatDollarAmount($totals['totalIncome'] ?? 0) ?></td>
                 </tr>
                 <tr>
                     <th colspan="3">Total Expense:</th>
-                    <td><?= formatDollarAmount($totals['totalExpense'] ?? 0) ?></td>
+                    <td style="color:red"><?= formatDollarAmount($totals['totalExpense'] ?? 0) ?></td>
                 </tr>
                 <tr>
                     <th colspan="3">Net Total:</th>
-                    <td><?= formatDollarAmount($totals['netTotal'] ?? 0) ?></td>
+                    <td style="color:dark;"><?= formatDollarAmount($totals['netTotal'] ?? 0) ?></td>
                 </tr>
             </tfoot>
         </table>
