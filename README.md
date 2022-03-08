@@ -1,6 +1,6 @@
 ---
 ## CSV File Praser in PHP
- 1.Download this project 
+ #1.Download this project 
  2.Go to htdocs and copy the project
  3. Run Xampp goto : Your_Project/public 
 
